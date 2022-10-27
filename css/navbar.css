@@ -1,0 +1,167 @@
+/* navstyles */
+
+
+.nav-con{
+    background-color: #ffff;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:12px;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 2;
+  
+}
+
+.left-section{
+   display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+   align-items: center;
+   margin-right: 5px;
+
+
+}
+
+/* icons */
+.hamburger-icon{
+    width: 50px;
+    height: 25px;
+    margin-right: 19px;
+    margin-left: 12px;
+ 
+  
+}
+
+.youtube-logo{
+    width: 100px;
+    height: 55px;
+}
+
+/* MIDDLE-SECTION */
+
+.middle-section{
+    width: 570px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+   
+ 
+    
+}
+
+.searchbar{
+    height: 100%;
+    margin-left: 15px;
+    flex: 1;
+    border: 1px solid  #cccccc;
+    box-shadow: inset 0px 1px 2px #eeeeee; 
+    padding: 20px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius:2px ;
+    width: 0;
+    max-width: 550px;
+   
+}
+
+.searchbar::placeholder{
+    font-size: large;
+    font-weight: 50px;
+    font-family: inherit;
+
+   
+}
+
+.search-button{
+    background-color: #efefef;;
+    width: 75px;
+    border: 1px solid  #cccccc;
+    margin-left: -1px;
+    cursor: pointer;
+    position: relative;
+  
+}
+
+.search-button .tool-tip , .voice-search-button .tool-tip{
+  background-color: #3e3d3d;
+  color: #ffffff;
+  padding: 5px;
+  opacity: 0;
+  position: absolute;
+  bottom: -37px;   
+  pointer-events: none;
+  transition: opacity 0.5ms;
+}
+
+.search-button:hover .tool-tip{
+    opacity: 2;
+}
+
+
+.voice-search-button{
+    background-color: #efefef;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    border:none;
+    position: relative;
+}
+
+
+.voice-search-button:hover .tool-tip{
+    opacity:2 ;
+}
+
+
+.search-icon{
+    height: 30px;
+}
+
+.voice-search-icon{
+    height: 27px;
+}
+
+/* RIGHT-SECTION */
+.right-section{
+    padding: 10px;
+    width: 230px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+   
+   
+}
+
+.notification-alert{
+    position: relative;
+    text-align: center;
+}
+
+.alert-btn {
+    border-radius: 70px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    border: 1px solid white;
+    font-size: 10px;
+    padding: 0 5px;
+    pointer-events: none;
+
+}
+
+.r-icon {
+    height: 29px;  
+}
+
+.channel-Profile-pic{
+    height:35px ;
+
+}

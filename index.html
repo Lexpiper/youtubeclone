@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- CSS STYLE SHEETS -->
+        <link rel="stylesheet" href="/css/general.css">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link
+        rel="stylesheet" href="/css/sidebar.css">
+        <!-- ROBOTO FONTS LINK -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- MA -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>youtube clone</title>
+        <!-- BOOTSTRAP CDN LINK -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+    <body class="mb-6">
+        <!-- NAVSECTION -->
+        <div class="nav-con p-1">
+            <div class="left-section">
+                <img class="hamburger-icon" src="/icons/hamburger-menu.svg" alt="hamburger-menu">
+                <img class="youtube-logo" src="/icons/youtube-logo.svg" alt="youtube-logo">
+            </div>
+            <div class="middle-section">
+                <input class="searchbar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="/icons/search.svg" alt="search-icon">
+                    <div class="tool-tip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="/icons/voice-search-icon.svg" alt="voice-search-icon">
+                    <div class="tool-tip">search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section px-3">
+                <img class="r-icon" src="/icons/upload.svg" alt="upload">
+                <img class="r-icon" src="/icons/youtube-apps.svg" alt="youtube apps">
+                <div class="notification-alert">
+                    <img class="r-icon" src="/icons/notifications.svg" alt="notifications">
+                    <div class="alert-btn text-light bg-danger">4</div>
+                </div>
+                
+                <img class="channel-Profile-pic" src="/images/my-channel.jpeg" alt="channel-Profile-pic">
+            </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="/icons/home.svg" alt="">
+                <p>Home</p>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="/icons/explore.svg" alt="">
+                <p>Explore</p>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="/icons/subscriptions.svg" alt="">
+                <p>Subscription</p>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="/icons/originals.svg" alt="">
+                <p>originals</p>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="/icons/youtube-music.svg" alt="">
+                <p>youtube music</p>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="/icons/library.svg" alt="">
+                <p>Library</p>
+            </div>
+
+        </div>
+
+
+        <!-- videos section -->
+
+        <div class="container-fluid video-section ">
+            <div class="row d-flex video-grid">
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-1.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">14:20</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-1.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</div>
+                                                <div class="video-author">Marques Brownlee</div>
+                                                <div class="video-details">
+                                                    3.4M views · 6 months ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-2.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">14:20</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-2.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Try Not To Laugh Challenge #9</div>
+                                                <div class="video-author">Markiplier</div>
+                                                <div class="video-details">
+                                                    19M views · 4 years ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-3.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">9:13</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-3.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</div>
+                                                <div class="video-author">SSSniperWolf</div>
+                                                <div class="video-details">
+                                                    12M views · 1 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-4.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">22:09</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-4.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</div>
+                                                <div class="video-author">Veritasium</div>
+                                                <div class="video-details">
+                                                    18M views · 4 months ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-5.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">11:17</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-5.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</div>
+                                                <div class="video-author">CS Dojo</div>
+                                                <div class="video-details">
+                                                    519K views · 5 years ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-6.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">19:59</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-6.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Anything You Can Fit In The Circle I’ll Pay For</div>
+                                                <div class="video-author">MrBeast</div>
+                                                <div class="video-details">
+                                                    141M views · 1 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-7.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">10:13</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-7.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Why Planes Don't Fly Over Tibet</div>
+                                                <div class="video-author">RealLifeLore</div>
+                                                <div class="video-details">
+                                                    6.6M views · 1 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-8.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">8:12</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-8.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Inside The World's Biggest Passenger Plane</div>
+                                                <div class="video-author">Marques Brownlee</div>
+                                                <div class="video-details">
+                                                    3.4M views · 6 months ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-9.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">13:17</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-9.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">The SECRET to Super Human STRENGTH</div>
+                                                <div class="video-author">ThenX</div>
+                                                <div class="video-details">
+                                                    20M views · 3 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-10.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">4:10</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-10.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</div>
+                                                <div class="video-author">Business Insider</div>
+                                                <div class="video-details">
+                                                    14M views · 1 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-11.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">14:20</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-11.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</div>
+                                                <div class="video-author">Destination Tips</div>
+                                                <div class="video-details">
+                                                    3M views · 1 year ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12  col-md-4 col-lg-3">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="video-card">
+                                <div class="image-thumbnail">
+                                    <img class="thumbnail-img" src="/images/thumbnail-12.webp" alt="thumbnail">
+                                    <div class="video-time fs-6">14:20</div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
+                                            <div class="channel-pic">
+                                                <img class="dp" src="/images/channel-12.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="video-stat">
+                                                <div class="video-title">What would happen if you didn’t drink water? - Mia Nacamulli</div>
+                                                <div class="video-author">TED-Ed</div>
+                                                <div class="video-details">
+                                                    12M views · 5 years ago</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- main body section -->
+
+
+                <!-- side-bar section -->
+
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            </body>
+        </html>
+    </body>
+</html>
